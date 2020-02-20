@@ -1,0 +1,630 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+header{
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    transition: .4s;
+    z-index: 999;
+    padding: 30px 0px;
+}
+
+.top_nav.scrolled{
+    background: #fff;
+    padding: 10px 0px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 30px 0px; */
+}
+.logo .logo-img img{
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+.banner{
+    text-align: left;
+}
+.banner .banner-text{
+    margin-top: 80px;
+    padding-left: 20px;
+}
+.banner .banner-text h4{
+    font-size: 60px;
+    line-height: 1.2;
+    color: #353744;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+}
+.banner .banner-text h1{
+    font-size: 1.33333em;
+    line-height: 1;
+    font-weight: 700;
+    color: #353744;
+    font-family: 'Playfair Display';
+}
+.banner .banner-text  h1 span{
+    color: #fcc83a!important;
+    font-size: 1.33333em;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Playfair Display';
+
+}
+.banner .banner-text h3{
+    font-family: 'montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 24px;
+    line-height: 1.25;
+    color: #353744;
+    margin-top: 30px;
+}
+.banner .banner-text p{
+    font-weight: 500;
+    color: #353744;
+    font-size: 14px;
+    line-height: 2.14286;
+    font-family: 'montserrat';
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.banner .banner-text a{
+    background: #fcc83a;
+    border-radius: 30px;
+    padding: 20px 28px;
+    font-size: 12px;
+    line-height: 1.25;
+    border: 2px solid #fcc83a;
+    font-family: 'montserrat';
+    font-weight: 400;
+    letter-spacing: .2em;
+    color: #fff;
+    transition: .44s;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.14);
+}
+.banner .banner-text a:hover{
+    background: #000;
+    text-decoration: none;
+    border-color: #000000;
+}
+.banner .banner-img img{
+    width: 940;
+    max-width: 100%;
+    max-height: 100%;
+}
+.banner-2{
+    text-align: left;
+    background-image: url(../../images/decor-02-472x762.png);
+    background-attachment: scroll;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.banner-2 .banner-2-text{
+    margin-top: 60px;
+    padding-left: 30px;
+}
+.banner-2 .banner-2-text h5{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fcc83a;
+    font-family: 'montserrat';
+}
+.banner-2 .banner-2-text h4{
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 700;
+    color: #353744;
+    margin-top: 15px;
+    font-family: 'playfair display';
+}
+.banner-2 .banner-2-text h6{
+    font-weight: 500;
+    color: #353744;
+    font-size: 14px;
+    line-height: 2.14286;
+    font-family: 'montserrat';
+    margin-top: 20px;
+}
+.banner-2 .banner-2-text p{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.banner-2 .banner-2-text a{
+    background: #fcc83a;
+    color: #fff;
+    padding: 20px 28px;
+    font-size: 12px;
+    line-height: 1.25;
+    border: 2px solid #fcc83a;
+    font-weight: 400;
+    font-family: 'montserrat';
+    border-radius: 30px;
+    transition: .44s;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.14);
+}
+.banner-2 .banner-2-text a:hover{
+    background: #000;
+    border: #000000;
+    text-decoration: none;
+
+}
+
+.banner-2 .banner-2-img img{
+    margin-bottom: -50px;
+}
+
+.our-portfolio{
+    padding-top: 50px;
+}
+
+.about{
+    background-image: url("../../images/decor-03-1343x1845.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.our-portfolio h1 a{
+    font-weight: 1000;
+    color: #fcc83a;
+    transition: .44s;
+}
+.our-portfolio h1 a:hover{
+    color: #000000;
+    cursor: text;
+    text-decoration: none;
+}
+.our-portfolio p{
+    font-size: 14px;
+    line-height: 1.71429;
+    color: #353744;
+    font-weight: 300;
+    margin-top: 25px;
+    font-family: 'montserrat';
+}
+.offer .offer-text h6{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: .2em;
+    color: #fcc83a;
+    font-family: 'montserrat';
+    margin-top: 30px;
+}
+.offer .offer-text h3{
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 700;
+    color: #353744;
+    font-family: 'playfair display';
+    margin-top: 15px;
+}
+.offer .offer-text p{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+    margin-top: 20px;
+}
+.management .card-deck .card .card-body i{
+    font-weight: 600;
+    color: #fcc83a;
+    padding-top: 50px;
+    font-size: 60px;
+    line-height: 1;
+    margin-bottom: 30px;
+
+} 
+.management .card-deck .card .card-body .card-title a{
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: 'playfair display';
+    color: #000;
+    transition: .44s;
+}
+
+.management .card-deck .card .card-body .card-title a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.management .card-deck .card{
+    transition: .44s;
+    color: #000;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.14);
+}
+
+.management .card-deck .card:hover .card-title a{
+    color: #FFF;
+}
+
+.management .card-deck .card:hover{
+    background: #353744;
+    color: #fff !important;
+    transform: scale(1.1);
+}
+.management .card-deck .card .card-body .card-title .card-text{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7F7F7F;
+    font-family: 'montserrat';
+    padding-top: 20px;
+}
+.partner .card-body{
+    text-align: left;
+}
+.partner h5{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fcc83a;
+    font-family: 'montserrat';
+    margin-top: 30px;
+}
+.partner h3{
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 700;
+    color: #353744;
+    font-family: 'playfair display';
+    margin-top: 20px;
+    margin-bottom: 60px;
+    
+}
+.partner .same-img img{
+    border-radius: 50%;
+}
+.partner .same-name p a{
+    color: #7f7f7f;
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    font-family: 'montserrat';
+    transition: .44s;
+}
+.partner .same-name p a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.partner .same h6{
+    color: #fcc83a;
+    font-size: 14px;
+    line-height: 2.14286;
+}
+.partner .anchor a{
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'playfair display';
+    font-weight: 700;
+    color: #353744;
+    transition: .44s;
+}
+.partner .anchor a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.partner .bottom-place .star i{
+    color: #fcc83a;
+}
+.partner .bottom-place .user i{
+    padding-left: 81px;
+}
+.partner .bottom-place .numerical a{
+    color: #7f7f7f;
+    font-size: 14px;
+    line-height: 1;
+    transition: .44s;
+
+}
+.partner .bottom-place .numerical a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.partner .card-deck .card{
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.14);
+    transition: .44s;
+}
+.partner .card-deck .card:hover{
+    transform: translate(0, -5px);
+}
+
+.tweets{
+    padding: 80px 0px;
+}
+.tweets h4{
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 700;
+    color: #353744;
+    font-family: 'playfair display';
+    margin-top: 40px;
+}
+.tweets i{
+    font-size: 30px;
+    color: #1da1f3;
+    margin-top: 25px;
+}
+.tweets a{
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 14px;
+    line-height: 2.14286;
+    color: #353744;
+    transition: .44s;
+    margin-top: 20px;
+}
+.tweets a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.tweets .speaker{
+    color: #1da1f3;
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 400;
+    font-family: 'montserrat';
+    transition: .44s;
+    margin-top: 30px;
+}
+.events{
+    padding: 100px 0p;
+}
+.events h5{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #fcc83a;
+    font-family: 'montserrat';
+    text-align: center;
+}
+.events h4{
+    font-size: 36px;
+    line-height: 1.11111;
+    font-weight: 700;
+    color: #353744;
+    font-family: 'playfair display';
+    text-align: center;
+    margin-top: 20px;
+}
+.events .love{
+    margin-top: 50px;
+}
+.events .love img{
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 9px 0 rgba(0,0,0,.14);
+}
+.events .love h3 a{
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: 'playfair display';
+    color: #353744;
+    transition: .44s;
+    font-weight: 700;
+}
+.events .love h3 a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.events .love h5 i{
+    color: #fcc83a;
+}
+.events .love h5 a{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+     color: #353744;
+     transition: .44s;
+     margin-top: 25px;
+     margin-bottom: 35px;
+}
+.events .love h5 a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.events .love p{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+}
+.events .love h6 a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #353744;
+    font-family: 'montserrat';
+    transition: .44s;
+}
+.events .love h6 a:hover{
+    color: #fcc83a;
+    text-decoration: none;
+}
+.brand-names{
+    background: #353744;
+    padding: 70px 0px;
+    vertical-align: middle;
+    transition: .44s;
+}
+.brand-names a img:hover{
+    opacity: 0.6;
+    /* box-shadow: 6px 6px 9px 0 rgba(0,0,0,.14); */
+}
+.footer{
+    background-color: #25272E;
+    padding: 100px 0px;
+}
+
+
+.footer .an h4{
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'montserrat';
+    color: #fff;
+     margin-bottom: 40px; 
+}
+.footer .an a{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+}
+.footer .an a:hover{
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.footer-menu h4{
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'montserrat';
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.footer .quick{
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer .an input{
+    
+    background-color: #2C2E36;
+    width: 100%;
+    min-height: 50px;
+    padding: 12px 30px;
+    
+    line-height: 24px;
+    border-radius: 30px;
+    border: 1px solid #f5f5f5;
+}
+.footer .an input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer .an input:focus{
+    border-color: #f5543f;
+    outline: none;
+}
+.footer .an .send a{
+    padding: 20px 28px;
+    color: #fff;
+    background-color: #353744;
+    border-color: #353744;
+    border-radius: 30px;
+    margin-top: 30px;
+    transition: .44s;
+    font-size: 12px;
+    line-height: 1.25;
+    font-family: 'montserrat';
+}
+.footer .an .send a:hover{
+    background-color: #FCC83A;
+    color: #fff;
+}
+.copyright{
+    background-color: #2C2E36;
+    padding: 20px 0px;
+}
+.copyright .copy-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright .copy-img .copy-text p{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+}
+.copyright .copy-img .logo-inverse img{
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+.copyright .copy-img .copy-text p a{
+    font-size: 14px;
+    line-height: 2.14286;
+    font-weight: 300;
+    color: #7f7f7f;
+    font-family: 'montserrat';
+    transition: .44s;
+}
+.copyright .copy-img .copy-text p a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .banner .row{
+        flex-direction: column-reverse;
+    }
+
+    .banner .banner-text{
+        margin-top: 0px;
+        margin-bottom: 60px;
+    }
+
+    .banner .banner-text h4{
+        font-size: 40px;
+    }
+
+    .banner-2 .banner-2-img img{
+        margin-bottom: 0px;
+    }
+    .banner-2 .banner-2-text {
+        margin-top: 24PX;
+    }
+
+    .management .card-deck{
+        width: 68%;
+        margin: 0 auto;
+    }
+    .partner .card-deck {
+        margin: 0 auto;
+    }
+    
+}
